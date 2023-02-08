@@ -1,9 +1,76 @@
 
+body{
+    background-color: var(--color-1);
+    color: var(--color-7);
+}
+h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container{
+    max-width: 1024px;
+    padding: var(--padding-default);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap:20px;
+}
+
+.calculator{
+    width: 350px;
+    height: 300px;
+    background-color: var(--color-4);
+    padding: var(--padding-default);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: var(--radius-default);
+}
+
+.calculator__result{
+    background-color:rgba(255, 255, 255, 0.873);
+    width: 100%;
+    height: 30px;
+    border-radius: var(--radius-default);
+    
+}
+
+table{
+    padding: 15px 20px;        
+    
+}
+
+table tr{
+    margin-top: 10px;
+}
+
+.botao{
+    width: 40px;
+    padding: var(--padding-default);
+    background-color: var(--color-1);
+    color: var(--color-7);
+    font-weight: 800;   
+    border-radius: var(--radius-default);
+    margin: 5px;
+    border: none;
+    
+}
+
+.botao__numero{
+    background-color: var(--color-2);
+}
+
+.botao__operacao{
+    background-color: var(--color-5);
+}
 
 
 
-
-
+.botao:hover{
+    background-color: var(--color-1);
+}
 
 
 
@@ -19,6 +86,7 @@
 
 
 footer{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,4 +98,9 @@ footer{
     width: 60px;
     height: 60px;
     border-radius: 50%;
+}
+
+a{
+    color: white;
+    cursor: pointer;
 }
