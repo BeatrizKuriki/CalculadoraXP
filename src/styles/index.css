@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;  
+
+}
+.profile__image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
