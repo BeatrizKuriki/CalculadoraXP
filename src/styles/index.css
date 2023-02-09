@@ -26,7 +26,7 @@ h1{
 
 .calculator{
     width: 700px;
-    height: 500px;
+    height: 600px;
     background-color: var(--color-4);   
     display: flex;
     flex-direction: column;   
@@ -97,8 +97,13 @@ table td{
     color: rgb(154, 129, 243);
     text-transform: uppercase;
     font-weight: bolder;
-    text-align: center;   
-    
+    text-align: center;      
+}
+
+table p{
+    line-height: 200%;
+    margin-top: 20px;
+
 }
 
 footer{
