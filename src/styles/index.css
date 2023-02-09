@@ -36,7 +36,7 @@ h1{
 
 .cabecalho{
     width: 100%;
-    height: 200px;  
+    height: 100px;  
     padding: 5px;   
     background-color: black;
     border-radius: 15px 15px 0 0; 
@@ -44,8 +44,7 @@ h1{
 
 .numeros{
     display: flex;
-    align-items: center;   
-    height: 150px;
+    align-items: center;  
     width: 100%;
     gap: 10px;
 
@@ -84,8 +83,23 @@ button{
     color: white;
     cursor: pointer;
 }
-
-
+table{
+    width: 95%;
+    margin-top: 10px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+table td{
+    border: 1px solid #0e021c;
+    padding: 5px;
+    height: 70px;
+    color: rgb(154, 129, 243);
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;   
+    
+}
 
 footer{
 
