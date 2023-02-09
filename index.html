@@ -11,65 +11,34 @@
 </head>
 <body>
     <div class="container">
-        <h1>Calculadora Inteligente</h1>
+        
         <div class="calculator">
-            <p class="calculator__result"></p>
-            <table>
-                <tr>
-                    <td><button class="botao" onclick="clean()">C</button></td>
-                    <td><button class="botao" onclick="back()"><-</button></td>
-                    <td><button class="botao" onclick="calcular()">=</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('%')">%</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('/')">/</button></td>
-                    
-                </tr>
-                <tr>
-                    <td><button class="botao botao__numero" onclick="insert('7')">7</button></td>
-                    <td><button class=" botao botao__numero" onclick="insert('8')">8</button></td>
-                    <td><button class=" botao botao__numero" onclick="insert('9')">9</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('x^')">X²</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('*')">*</button></td>
 
-                </tr>
-                <tr>
-                    <td><button class="botao botao__numero" onclick="insert('4')">4</button></td>
-                    <td><button class="botao botao__numero" onclick="insert('5')">5</button></td>
-                    <td><button class="botao botao__numero" onclick="insert('6')">6</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('√')">√</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('-')">-</button></td>
-                </tr>
-                <tr>
-                    <td><button class="botao botao__numero" onclick="insert('1')">1</button></td>
-                    <td><button class="botao botao__numero" onclick="insert('2')">2</button></td>
-                    <td><button class="botao botao__numero" onclick="insert('3')">3</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('+')">+</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('π')">π</button></td>
-                  
-                </tr>
-                <tr>
-                    <td ><button class="botao botao__numero" onclick="insert('0')">0</button></td>
-                    <td><button class="botao" onclick="insert('.')">.</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('seno')">sen</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('cosseno')">cos</button></td>
-                    <td><button class="botao botao__operacao" onclick="insert('tangente')">tan</button></td>
-                </tr>
-            </table>
+            <div class="cabecalho">
+                <h1>Super Calculadora</h1>
+                <div class="numeros">
+                    <div class="primeiroNum">
+                        <span>Primeiro Número A</span>
+                        <input type="text">
+                    </div>
+                    <div class="segundoNum">
+                        <span>Segundo Número B</span>
+                        <input type="text">
+                    </div>
+                    <button>Calcular</button>
+                </div>
+                
+            </div>
+            </div>
 
-
-
-
-
-        </div>
-
-    </div>
-    
-
-    <footer>              
+                        
+            
+     <footer>              
             <p>Coded by </p>
             <img class= "profile__image" src="./src/img/profile.jpeg" alt="imagem de perfil"> 
             <div class="link"><a href="https://www.linkedin.com/in/beatriz-alencar-kuriki/" target="_blank">Beatriz Alencar Kuriki</a></div>        
-    </footer>
-
+     </footer>
+   </div>
     <script src="./src/script/index.js"></script>
 </body>
 </html>

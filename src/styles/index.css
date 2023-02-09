@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 20px;
     font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+    
 }
 .container{
     max-width: 1024px;
@@ -18,84 +21,69 @@ h1{
     gap:20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .calculator{
-    width: 350px;
-    height: 300px;
-    background-color: var(--color-4);
-    padding: var(--padding-default);
+    width: 700px;
+    height: 500px;
+    background-color: var(--color-4);   
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: var(--radius-default);
+    flex-direction: column;   
+    border-radius: 15px;
+   
 }
 
-.calculator__result{
-    background-color:rgba(255, 255, 255, 0.873);
+.cabecalho{
     width: 100%;
-    height: 30px;
-    border-radius: var(--radius-default);
-    
+    height: 200px;  
+    padding: 5px;   
+    background-color: black;
+    border-radius: 15px 15px 0 0; 
 }
 
-table{
-    padding: 15px 20px;        
-    
+.numeros{
+    display: flex;
+    align-items: center;   
+    height: 150px;
+    width: 100%;
+    gap: 10px;
+
 }
 
-table tr{
-    margin-top: 10px;
-}
-
-.botao{
-    width: 50px;
-    padding: var(--padding-default);
-    background-color: var(--color-5);
-    color: var(--color-7);
-    font-weight: 800;   
-    border-radius: var(--radius-default);
-    margin: 5px;
+ input{
+    width: 50%;
     border: none;
-    
 }
 
-.botao:hover{
-    background-color: var(--color-1);
+input:focus{
+    border: 2px solid rgba(30, 239, 30, 0.515);
+}
+
+.primeiroNum{
+    display: flex;
+    font-size: 14px;
+    justify-items: center;
+    gap:10px;
+    align-items: center;
 
 }
 
-.botao__numero{
-    background-color: var(--color-2);
+.segundoNum{
+    display: flex;
+    font-size: 14px;
+    justify-items: center;
+    gap:10px;
+    align-items: center;
+
 }
 
-.botao__operacao{
-    background-color: var(--color-1);
+button{
+    background-color: rgba(30, 239, 30, 0.515);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
 }
-
-.botao__operacao:hover{
-    background-color: var(--color-2);
-}
-
-
-
-.botao__numero:hover{
-    background-color: var(--color-1);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
