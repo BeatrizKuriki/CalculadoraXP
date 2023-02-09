@@ -53,6 +53,8 @@ h1{
  input{
     width: 50%;
     border: none;
+    height: 30px;
+    border-radius: 4px;
 }
 
 input:focus{
@@ -80,7 +82,10 @@ input:focus{
 button{
     background-color: rgba(30, 239, 30, 0.515);
     border-radius: 4px;
+    width: 80px;
+    height: 40px;
     color: white;
+    font-size: 16px;
     cursor: pointer;
 }
 table{

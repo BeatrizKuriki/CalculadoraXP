@@ -101,7 +101,7 @@ function multiplica(numA, numB){
 }
 
 function divisaoAb(numA, numB){
-    return numA/numB;
+     return numA/numB;
 }
 
 function divisaobA(numA, numB){
