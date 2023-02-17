@@ -32,7 +32,7 @@ Calculadora criada como trabalho final do Minicamp da XP</h1>
 
 <br>
 <h2 align="center"> :file_folder: Acesso ao projeto </h2>
-<p> Você pode acessar o projeto final clicando aqui: /</p>
+<p> Você pode acessar o projeto final clicando aqui: https://jolly-gelato-b7b764.netlify.app/</p>
 <br>
 <h2 align="center"> :computer: Tecnologias utilizadas </h2>
 
