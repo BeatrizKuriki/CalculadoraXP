@@ -8,7 +8,7 @@ Calculadora criada como trabalho final do Minicamp da XP</h1>
 <br>
 
 <p>Imagem 1: Desktop</p>
-<p align="center"><img src="" width:1000></p>
+<p align="center"><img src="https://github.com/BeatrizKuriki/CalculadoraXP/blob/main/src/img/Captura%20de%20tela%20de%202023-03-02%2015-44-33.png" width:1000></p>
 
 <br>
 <h2 align="center">:hourglass: Status do projeto </h2>
